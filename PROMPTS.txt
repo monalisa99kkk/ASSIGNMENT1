@@ -1,122 +1,67 @@
-<!-- pricing section start here -->
+    <!-- pricing section starts here -->
+    <section class="pricing">
+      <div class="top">
+        <h1>Secure Your Spot</h1>
+        <p>Early-bird pricing ends August 15, 2026.</p>
+      </div>
+      <div class="pricing-container">
+        <!-- Card 1 -->
+        <div class="price-card">
+          <p class="plan">STANDARD</p>
+          <h1>$399</h1>
+          <p>per person</p>
+          <hr />
+          <ul class="price-list">
+            <li>Access to all 3 conference days</li>
+            <li>48 curated technical talks</li>
+            <li>2 workshop sessions</li>
+            <li>Networking lunch & coffee breaks</li>
+            <li>Conference swag bag</li>
+            <li>Digital recordings (30 days)</li>
+          </ul>
+          <button>Get Standard</button>
+        </div>
 
-    <section class ="pricing">
+        <!-- Card 2 -->
+        <div class="price-card active">
+          <p class="plan">PRO</p>
+          <h1>$749</h1>
+          <p>per person</p>
+          <hr />
 
-        <div class = "top">
+          <ul class="price-list">
+            <li>Everything in Standard</li>
+            <li>Unlimited workshop access</li>
+            <li>Speaker meet & greet</li>
+            <li>VIP Networking dinner</li>
+            <li>Lifetime recording access</li>
+            <li>1-on-1 mentoring (30 min)</li>
+          </ul>
 
-           <p class ="price-text">TICKETS</p>
+          <button>Get Pro</button>
+        </div>
 
-           <h1>Secure Your Spot</h1>
+        <!-- Card 3 -->
+        <div class="price-card">
+          <p class="plan">TEAM</p>
+          <h1>$5,999</h1>
+          <p>up to 10 people</p>
+          <hr />
 
-           <p>Early-bird pricing ends August 15,2026.</p>
+          <ul class="price-list">
+            <li>Everything in Pro (10 seats)</li>
+            <li>Dedicated team lounge access</li>
+            <li>Private workshop booking</li>
+            <li>Company logo on event page</li>
+            <li>Recruitment booth (1 day)</li>
+            <li>Priority customer support</li>
+          </ul>
 
-           </div>
-
-           <div class ="pricing-container">
-
-                   <!-- card 1 -->
-
-                   <div>
-
-                  <p class ="plan">STANDARD</p>
-
-                  <h1>$399</h1>
-
-                  <p>per person</p>
-
-                  <hr>
-
-                  <ul>
-
-                    <li>Access to all 3 conference days</li>
-
-                    <li>48 curated technical talks</li>
-
-                    <li>2 workshop sessions</li>
-
-                    <li>Networking lunch & coffee breaks</li>
-
-                    <li>Conference swag bag</li>
-
-                    <li>Digital recordings (30 days)</li>
-
-                  </ul>
-
-                    <button>Get Standard</button>
-
-                   </div>
-
-           <!-- card2 -->
-
-            <div>
-
-                <p class ="plan">PRO</p>
-
-                  <h1>$749</h1>
-
-                  <p>per person</p>
-
-                  <hr>
-
-                  <ul>
-
-                    <li>Everything in Standard</li>
-
-                    <li>Unlimited workshops</li>
-
-                    <li>Speaker meet & greet</li>
-
-                    <li>VIP dinner</li>
-
-                    <li>Lifetime recordings</li>
-
-                    <li>1-on-1 mentoring</li>
-
-                  </ul>
-
-                  <button>Get Pro</button>
-
-            </div>
-
-                    <!-- card 3 -->
-
-                     <div>
-
-                <p class ="plan">TEAM</p>
-
-                  <h1>$5,999</h1>
-
-                  <p>up to 10 people</p>
-
-                  <hr>
-
-                  <p>per person</p>
-
-                  <ul>
-
-                    <li>Everything in Pro</li>
-
-                    <li>Dedicated lounge</li>
-
-                    <li>Private workshop</li>
-
-                    <li>Company logo</li>
-
-                    <li>Requirement booth</li>
-
-                    <li>Priority support</li>
-
-                  </ul>
-
-                  <button>Contact Us</button>
-
-</div>
-
-</div>
-
-    </section>
-
-       <!-- pricing section ends here --> 
+          <button>Contact Us</button>
+        </div>
+      </div>
+    </section>
+    <!-- pricing section ends here -->
 
 
 i need to add faq section below the pricing section. pricing section code is above. so give me faq section  html  code for this project.also give me css class code which i will put in style css file.

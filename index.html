@@ -1,234 +1,209 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
     <nav>
-        <div>
-      <img src="assets/logo.png" alt="">
-        </div>
-        <div>
-            <ul>
-                <li><a href="">Speakers</a></li>
-                <li><a href="">Schedule</a></li>
-                <li><a href="">Tracks</a></li>
-                <li><a href="">Venue</a></li>
-                <li><a href="">Blog</a></li>
-            </ul> 
-        </div>
-        <div>
-            <button>Register Now</button>
-        </div>
-        </nav>
+      <div>
+        <img src="assets/logo.png" alt="" />
+      </div>
+      <div>
+        <ul>
+          <li><a href="">Speakers</a></li>
+          <li><a href="">Schedule</a></li>
+          <li><a href="">Tracks</a></li>
+          <li><a href="">Venue</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <button>Register Now</button>
+      </div>
+    </nav>
     <header>
-         <div class="header-content">
-         <h1>Code.Connet.Create</h1>
-         <p>Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections.</p>
-         <button>Register Now</button>
-         </div>
+      <div class="header-content">
+        <h1>Code.<em>Connet.</em>Create</h1>
+        <p>
+          Join 4,000+ engineers, founders, and builders at the premier developer
+          conference of 2026. Three days of cutting-edge talks, hands-on
+          workshops, and meaningful connections.
+        </p>
+        <button>Register Now</button>
+      </div>
     </header>
-
 
     <!-- meet the speaker section starts here -->
     <section class="speaker-section">
-        <div class ="top">
+      <div class="top">
         <h1>Meet the speakers</h1>
+      </div>
+      <div class="speaker-container">
+        <div class="speaker-card">
+          <img src="assets/andrej.png" alt=" " />
+          <div class="speaker-info">
+            <p class="category">AI / ML</p>
+            <h2>Andrej Karpathy</h2>
+            <p class="description">pretraining Team,Anthropic</p>
+          </div>
         </div>
-        <div class ="speaker-container">
-            <div class ="speaker-card">
-                <img src="assets/andrej.png"alt=" ">
-                <div class ="speaker-info">
-                    <p class="category">AI / ML</p>
-                    <h2>Andrej Karpathy</h2>
-                    <p class="description">pretraining Team,Anthropic</p>
-                    </div>
+        <!-- --- card---2 -->
 
-                </div>
-             <!-- --- card---2 -->
+        <div class="speaker-card">
+          <img src="assets/demis.png" alt=" " />
+          <div class="speaker-info">
+            <p class="category">Cloud & DevOps</p>
+            <h2>Demis Hassabis</h2>
+            <p class="description">Co-Founder and CEO, Google DeepMind</p>
+          </div>
+        </div>
+        <!-- card--3 -->
 
-          <div class ="speaker-card">
-                <img src="assets/demis.png"alt=" ">
-                <div class ="speaker-info">
-                    <p class="category">Cloud & DevOps</p>
-                    <h2>Demis Hassabis</h2>
-                    <p class="description">Co-Founder and CEO, Google DeepMind</p>
-                    </div>
-
-                </div>
-                <!-- card--3 -->
-        
-          <div class ="speaker-card">
-                <img src="assets/gary.png"alt=" ">
-                <div class ="speaker-info">
-                    <p class="category">Frontend</p>
-                    <h2>Gary Marcus</h2>
-                    <p class="description">Staff Engineer, Vercel</p>
-                    </div>
-
-                </div>
+        <div class="speaker-card">
+          <img src="assets/gary.png" alt=" " />
+          <div class="speaker-info">
+            <p class="category">Frontend</p>
+            <h2>Gary Marcus</h2>
+            <p class="description">Staff Engineer, Vercel</p>
+          </div>
+        </div>
         <!-- car4 -->
 
-          <div class ="speaker-card">
-                <img src="assets/mustafa.png"alt=" ">
-                <div class ="speaker-info">
-                    <p class="category">Security</p>
-                    <h2>Mustafa Suleyman</h2>
-                    <p class="description">CEO of Microsoft AI</p>
-                    </div>
-
-                </div>
-        </div> 
-
-
+        <div class="speaker-card">
+          <img src="assets/mustafa.png" alt=" " />
+          <div class="speaker-info">
+            <p class="category">Security</p>
+            <h2>Mustafa Suleyman</h2>
+            <p class="description">CEO of Microsoft AI</p>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- meet the speaker section ends here -->
 
-
     <!-- pricing section starts here -->
     <section class="pricing">
-        <div class="top">
-            <h1>Secure Your Spot</h1>
-            <p>Early-bird pricing ends August 15, 2026.</p>
-        </div>
-        <div class="pricing-container">
-
-            <!-- Card 1 -->
-            <div class="price-card">
-                <p class="plan">STANDARD</p>
-                <h1>$399</h1>
-                <p>per person</p>
-                <hr>
-                <ul class="price-list">
-                    <li>Access to all 3 conference days</li>
-                    <li>48 curated technical talks</li>
-                    <li>2 workshop sessions</li>
-                    <li>Networking lunch & coffee breaks</li>
-                    <li>Conference swag bag</li>
-                    <li>Digital recordings (30 days)</li>
-                </ul>
-                <button>Get Standard</button>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="price-card active">
-                <p class="plan">PRO</p>
-                <h1>$749</h1>
-                <p>per person</p>
-                <hr>
-
-                <ul class="price-list">
-                    <li>Everything in Standard</li>
-                    <li>Unlimited workshop access</li>
-                    <li>Speaker meet & greet</li>
-                    <li>VIP Networking dinner</li>
-                    <li>Lifetime recording access</li>
-                    <li>1-on-1 mentoring (30 min)</li>
-                </ul>
-
-                <button>Get Pro</button>
-
-            </div>
-
-            <!-- Card 3 -->
-            <div class="price-card">
-                <p class="plan">TEAM</p>
-                <h1>$5,999</h1>
-                <p>up to 10 people</p>
-                <hr>
-
-                <ul class="price-list">
-                    <li>Everything in Pro (10 seats)</li>
-                    <li>Dedicated team lounge access</li>
-                    <li>Private workshop booking</li>
-                    <li>Company logo on event page</li>
-                    <li>Recruitment booth (1 day)</li>
-                    <li>Priority customer support</li>
-                </ul>
-
-                <button>Contact Us</button>
-
-            </div>
-
+      <div class="top">
+        <h1>Secure Your Spot</h1>
+        <p>Early-bird pricing ends August 15, 2026.</p>
+      </div>
+      <div class="pricing-container">
+        <!-- Card 1 -->
+        <div class="price-card">
+          <p class="plan">STANDARD</p>
+          <h1>$399</h1>
+          <p>per person</p>
+          <hr />
+          <ul class="price-list">
+            <li>Access to all 3 conference days</li>
+            <li>48 curated technical talks</li>
+            <li>2 workshop sessions</li>
+            <li>Networking lunch & coffee breaks</li>
+            <li>Conference swag bag</li>
+            <li>Digital recordings (30 days)</li>
+          </ul>
+          <button>Get Standard</button>
         </div>
 
+        <!-- Card 2 -->
+        <div class="price-card active">
+          <p class="plan">PRO</p>
+          <h1>$749</h1>
+          <p>per person</p>
+          <hr />
+
+          <ul class="price-list">
+            <li>Everything in Standard</li>
+            <li>Unlimited workshop access</li>
+            <li>Speaker meet & greet</li>
+            <li>VIP Networking dinner</li>
+            <li>Lifetime recording access</li>
+            <li>1-on-1 mentoring (30 min)</li>
+          </ul>
+
+          <button>Get Pro</button>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="price-card">
+          <p class="plan">TEAM</p>
+          <h1>$5,999</h1>
+          <p>up to 10 people</p>
+          <hr />
+
+          <ul class="price-list">
+            <li>Everything in Pro (10 seats)</li>
+            <li>Dedicated team lounge access</li>
+            <li>Private workshop booking</li>
+            <li>Company logo on event page</li>
+            <li>Recruitment booth (1 day)</li>
+            <li>Priority customer support</li>
+          </ul>
+
+          <button>Contact Us</button>
+        </div>
+      </div>
     </section>
     <!-- pricing section ends here -->
 
-
     <!-- FAQ section starts here -->
     <section class="faq">
+      <div class="faq-heading">
+        <p class="faq-small-title">FAQ</p>
 
-        <div class="faq-heading">
+        <h1>Frequently Asked Questions</h1>
 
-            <p class="faq-small-title">FAQ</p>
+        <p class="faq-description">
+          Find answers to the most common questions about the conference.
+        </p>
+      </div>
 
-            <h1>Frequently Asked Questions</h1>
-
-            <p class="faq-description">
-                Find answers to the most common questions about the conference.
-            </p>
-
+      <div class="faq-container">
+        <div class="faq-item">
+          <h3>Who can attend this conference?</h3>
+          <p>
+            Anyone interested in technology, software development, AI, cloud
+            computing, and startups is welcome.
+          </p>
         </div>
 
-        <div class="faq-container">
-
-            <div class="faq-item">
-                <h3>Who can attend this conference?</h3>
-                <p>
-                    Anyone interested in technology, software development,
-                    AI, cloud computing, and startups is welcome.
-                </p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Will I receive a certificate?</h3>
-                <p>
-                    Yes. Every registered attendee will receive a digital
-                    certificate after the conference.
-                </p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Are meals included?</h3>
-                <p>
-                    Yes. Lunch, coffee breaks, and refreshments are included
-                    with every ticket.
-                </p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Can I get a refund?</h3>
-                <p>
-                    Tickets are refundable up to 14 days before the event.
-                </p>
-            </div>
-
+        <div class="faq-item">
+          <h3>Will I receive a certificate?</h3>
+          <p>
+            Yes. Every registered attendee will receive a digital certificate
+            after the conference.
+          </p>
         </div>
 
+        <div class="faq-item">
+          <h3>Are meals included?</h3>
+          <p>
+            Yes. Lunch, coffee breaks, and refreshments are included with every
+            ticket.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Can I get a refund?</h3>
+          <p>Tickets are refundable up to 14 days before the event.</p>
+        </div>
+      </div>
     </section>
     <!-- FAQ Section Ends-->
 
     <!-- Footer Section Starts here-->
-
     <footer>
-        <section class ="footer-section">
-            <p>@ 2026 DevConf. All rights reserved.</p>
-            <div class="footer-menu">
-                <a href="">Privacy Policy</a>
-                <a href="">Terms of Service</a>
-            </div>
-        </section>
+      <section class="footer-section">
+        <p>@ 2026 DevConf. All rights reserved.</p>
+        <div class="footer-menu">
+          <a href="">Privacy Policy</a>
+          <a href="">Terms of Service</a>
+        </div>
+      </section>
     </footer>
-
     <!-- Footer Section Ends-->
-
-  
-</body>
-
-
-
+  </body>
 </html>
